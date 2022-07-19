@@ -54,4 +54,13 @@ $(function(){
             GethashID (idName);//�ݒ肵���^�u�̓ǂݍ��݂�
             return false;//a�^�O�𖳌��ɂ���
         });
+    $(".info").modaal({
+        overlay_close:true,
+        before_open:function(){
+            $('html').css('overflow-y','hidden');
+        },
+        after_close:function(){
+            $('html').css('overflow-y','scroll');
+        }
+    });
 })
