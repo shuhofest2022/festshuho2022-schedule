@@ -11,7 +11,7 @@ body {
     color: black;
 }
 .top-header {
-    
+    z-index: 200000;
     background-color: #a7f6f6;
     left: 0;
     top: 0;
