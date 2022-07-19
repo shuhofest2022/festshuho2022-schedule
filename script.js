@@ -22,7 +22,7 @@ $(function(){
             var parentElm = $(this).parent(); 
             $('.tab li').removeClass("active"); 
             $(parentElm).addClass("active"); 
-            $(".area").removeClass("is-active");
+            $(".timeTable").removeClass("is-active");
             $(hashIDName).addClass("is-active");
             }
         });
