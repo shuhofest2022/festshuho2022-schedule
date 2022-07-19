@@ -70,6 +70,7 @@ body {
     width: 100%;
 }
 p {
+    margin-top: 5rem;
     color:black;
     width: 50%;
     height: auto;
