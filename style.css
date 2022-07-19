@@ -78,7 +78,7 @@ body {
     width: 100%;
 }
 p {
-    color: #fff;
+    color:black;
     width: 50%;
     height: auto;
     word-wrap: break-word;
@@ -275,4 +275,7 @@ td {
     float: right;
     margin: 0;
     text-align: right;
+}
+.hide {
+    width: 100%;
 }
