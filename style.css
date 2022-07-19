@@ -233,3 +233,11 @@ td {
 .date {
     color:#fff;
 }
+.timeTable tr .event {
+    display:block;
+    font-size: 20px;
+    padding: 1em;
+}
+.timeTable tr:hover .event {
+    background-color: #2C3E5C;
+}
