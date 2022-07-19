@@ -241,3 +241,8 @@ td {
 .timeTable tr:hover .event {
     background-color: #2C3E5C;
 }
+.hide_area {
+    display: none;
+    max-width: 560px;
+    width: 100%;
+}
